@@ -4,12 +4,6 @@ metadata:
   generateName: quarkus-tutorial-
 attributes:
   persistVolumes: "false"
-projects:
-  - name: maven
-    source:
-      type: git
-      location: "https://github.com/redhat-developer-demos/quarkus-tutorial.git"
-      sparseCheckoutDir: .m2
 components:
   - id: redhat/vscode-yaml/latest
     type: chePlugin
